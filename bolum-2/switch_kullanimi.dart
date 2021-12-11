@@ -40,8 +40,9 @@ void main(List<String> args) {
       break;
   }
 
-  int sayi = 25;
-  int bolum = (sayi / 10).toInt();
+  int sayi = 35;
+  // ~/ operatörü böldükten sonra direk integer'a çevirir.
+  int bolum = sayi ~/ 10;
 
   switch (bolum) {
     case 3:
@@ -51,7 +52,7 @@ void main(List<String> args) {
       print("Sayı 20'den büyüktür.");
       break;
     case 1:
-      print("Sayı 10'den büyüktürtür.");
+      print("Sayı 10'den büyüktür.");
       break;
     case 0:
       print("Sayı 10'dan küçüktür.");
