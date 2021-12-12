@@ -8,7 +8,8 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "bolum-2/operatorler_bolum2.dart",
+            "program": "${file}",
+            "console": "terminal",
         }
     ]
 }
