@@ -7,16 +7,14 @@ void main(List<String> args) {
 
   // Cevap 2
 
-  int kenar1 = 5, kenar2 = 5, kenar3 = 5;
+  int kenar1 = 10, kenar2 = 5, kenar3 = 5;
 
-  if (kenar1 == kenar2 || kenar1 == kenar3) {
-    if (kenar2 == kenar3) {
-      print("Eşkenar üçgen");
-    } else {
-      print("İkizkenar üçgen");
-    }
+  if (kenar1 == kenar2 && kenar1 == kenar3) {
+    print("Eşkenar üçgen");
+  } else if (kenar1 != kenar2 && kenar1 != kenar3 && kenar2 != kenar3) {
+    print("Çeşitkenar üçgen");
   } else {
-    print("Tüm kenarlar birbirinden farklı.");
+    print("İkizkenar üçgen");
   }
 
   // Cevap 3
