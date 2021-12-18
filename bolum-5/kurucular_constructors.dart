@@ -25,11 +25,11 @@ class Araba {
     otomatikMi = o;
   } */
 
-  Araba(this.marka, this.modelYili, this.otomatikMi) {}
+  Araba(this.marka, this.modelYili, this.otomatikMi);
 
-  Araba.markasizConstructor(this.modelYili, this.otomatikMi) {}
+  Araba.markasizConstructor(this.modelYili, this.otomatikMi);
 
-  Araba.modelYilsizConstructor(this.marka, this.otomatikMi) {}
+  Araba.modelYilsizConstructor(this.marka, this.otomatikMi);
 
   void bilgileriSoyle() {
     print(
