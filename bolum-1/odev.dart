@@ -7,8 +7,8 @@ void main(List<String> args) {
       "Benim adım $ad $soyAd, yaşım $yas ve tüm ismimdeki karakterlerin sayısı ${ad.length + soyAd.length}'tir");
 
   int birinciKenar = 3;
-  int ikinciKenar = 4;
-  int ucuncuKenar = 5;
+  int secondKenar = 4;
+  int thirdKenar = 5;
 
-  print("Üçgenin çevresi: ${birinciKenar + ikinciKenar + ucuncuKenar}");
+  print("Üçgenin çevresi: ${birinciKenar + secondKenar + thirdKenar}");
 }

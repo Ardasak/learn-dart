@@ -15,8 +15,8 @@ void main(List<String> args) {
 
   String? ad = null;
   String? soyad = "sak";
-  String mesaj;
+  String message;
 
-  mesaj = ad ?? soyad;
-  print("Merhaba $mesaj");
+  message = ad ?? soyad;
+  print("Merhaba $message");
 }

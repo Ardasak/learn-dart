@@ -6,5 +6,5 @@ void main(List<String> args) {
   print("arda'nın arabası");
   print("arda" + " sak");
 
-  //burada ilk defa dart kodu yazıyorum
+  //burada first defa dart kodu yazıyorum
 }

@@ -17,8 +17,8 @@ void main(List<String> args) {
 }
 
 class YasException implements Exception {
-  String mesaj;
-  YasException({this.mesaj = "Yaşınız 0'dan küçük olamaz"});
+  String message;
+  YasException({this.message = "Yaşınız 0'dan küçük olamaz"});
 
   @override
   String toString() {
@@ -31,7 +31,7 @@ class Ogrenci {
 
   Ogrenci(int yas) {
     if (yas < 0)
-      throw YasException(mesaj: "AgeException - Yaş negatif olamaz");
+      throw YasException(message: "AgeException - Yaş negatif olamaz");
     else
       this.yas = yas;
   }

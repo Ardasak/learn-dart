@@ -15,7 +15,7 @@ void main(List<String> args) {
 
 class Matematik {
   int birinciSayi = 0;
-  int ikinciSayi = 0;
+  int secondSayi = 0;
   static int toplamIslemSayisi = 0;
 
   static double PI = 3.14;
@@ -23,15 +23,15 @@ class Matematik {
     print("Ben matematik sınıfıyım.");
   }
 
-  Matematik(this.birinciSayi, this.ikinciSayi);
+  Matematik(this.birinciSayi, this.secondSayi);
 
   void topla() {
-    print(birinciSayi + ikinciSayi);
+    print(birinciSayi + secondSayi);
     toplamIslemSayisi++;
   }
 
   void cikar() {
-    print(birinciSayi - ikinciSayi);
+    print(birinciSayi - secondSayi);
     toplamIslemSayisi++;
   }
 }
